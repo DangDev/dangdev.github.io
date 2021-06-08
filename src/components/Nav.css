@@ -1,5 +1,7 @@
 .Nav {
-  background: white;
+  background: #b3ffab;
+  background: -webkit-linear-gradient(to right, #12fff7, #b3ffab);
+  background: linear-gradient(to right, #12fff7, #b3ffab);
   position: sticky;
   top: 0;
   z-index: 2;
