@@ -9,8 +9,7 @@ meta:
   title: Trang chủ
 ---
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-85cabe4b-0266-4002-aa3b-6df2b1bc2fe1"></div>
+<div class="powr-music-player" id="5eda0d6e_1623223395"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
 
 Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
 
