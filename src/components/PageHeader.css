@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
 .PageHeader {
   background-color: var(--darkGrey);
   color: white;
@@ -15,11 +18,15 @@
 .PageHeader--Title {
   font-size: 6rem;
   margin-bottom: 0;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .PageHeader--Subtitle {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 1.5px 1.5px rgb(0, 0, 0);
 }
 
 .PageHeader .container {
