@@ -29,6 +29,6 @@ View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify C
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
 
-# Music Time!
+<widgetbot server="790604408244273161" channel="790604409100566581" width="800" height="600"> </widgetbot>
 
-<div class="powr-music-player" id="5eda0d6e_1623223395"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
