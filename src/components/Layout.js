@@ -39,12 +39,12 @@ export default ({ children, meta, title }) => {
           }
         }
       `}
-      render={data => {
+      render={(data) => {
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
           subNav = {
             posts: data.allPosts.hasOwnProperty('edges')
-              ? data.allPosts.edges.map(post => {
+              ? data.allPosts.edges.map((post) => {
                   return { ...post.node.fields, ...post.node.frontmatter }
                 })
               : false
