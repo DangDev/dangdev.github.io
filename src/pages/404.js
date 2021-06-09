@@ -15,21 +15,22 @@ export default ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout>
         <Helmet>
-          <title>404 – Page Not Found</title>
+          <title>404 – Bạn đi lạc rồi!</title>
         </Helmet>
         <section className="section thick">
           <div className="container skinny taCenter">
             <p>
               <AlertTriangle size="5rem" />
             </p>
-            <h1>404 - Page Not Found</h1>
+            <h1>404 - Bạn đi lạc rồi!</h1>
             <p>
-              We can't find the page you are looking for!
+              Trang bạn đang truy cập hiện không rõ địa chỉ! <br />
+              Phải chăng nó đã bị xoá đi hoặc chưa từng tồn tại!
               <br />
-              Head back to{' '}
+              Quay lại{' '}
               <Link to="/">{_get(data, 'globalSettings.siteTitle')}</Link>
             </p>
           </div>

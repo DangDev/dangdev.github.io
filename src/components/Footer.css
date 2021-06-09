@@ -3,13 +3,8 @@
 .footer {
   font-family: 'Fira Sans', sans-serif;
   padding: 2rem 0;
-  background: rgb(179, 244, 117);
-  background: linear-gradient(
-    0deg,
-    rgba(179, 244, 117, 1) 0%,
-    rgba(247, 247, 247, 1) 100%
-  );
-  font-size: 2rem;
+  background: #162011;
+  font-size: 1.8rem;
   animation: colorRotate 5s linear 0s infinite;
 }
 
