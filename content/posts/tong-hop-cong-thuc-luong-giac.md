@@ -17,3 +17,7 @@ meta:
 
 <img src="https://i.imgur.com/HqQGPw6.png"/>
 <img src="https://i.imgur.com/FRzykWg.png"/>
+
+## Link tải pdf:
+
+<a href="https://github.com/DangDev/DangDev.github.io/releases/download/File/Full-cong-thuc-luong-giac.pdf"><button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button></a>
