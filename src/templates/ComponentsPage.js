@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import hastToHyperscript from 'hast-to-hyperscript'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
@@ -8,6 +9,10 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+
+const renderHtmlToReact = (node) => {
+  return hastToHyperscript(React.createElement, node)
+}
 
 // Export Template for use in CMS preview
 export const ComponentsPageTemplate = ({
