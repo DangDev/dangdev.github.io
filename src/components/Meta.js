@@ -59,6 +59,12 @@ export default class Meta extends Component {
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
         <meta name="twitter:card" content={absoluteImageUrl} />
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script
+          id="MathJax-script"
+          async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        ></script>
 
         {googleTrackingId && (
           <script

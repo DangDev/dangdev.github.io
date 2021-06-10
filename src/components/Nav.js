@@ -21,13 +21,13 @@ export class Navigation extends Component {
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
   // keyboard events
-  handleLinkKeyDown = ev => {
+  handleLinkKeyDown = (ev) => {
     if (ev.keyCode === 13) {
       this.state.active && this.handleMenuToggle()
     }
   }
 
-  toggleSubNav = subNav =>
+  toggleSubNav = (subNav) =>
     this.setState({
       activeSubNav: this.state.activeSubNav === subNav ? false : subNav
     })
@@ -71,8 +71,8 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/"> Trang chủ</NavLink>
+            <NavLink to="/components/">Các thành phần</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -87,15 +87,15 @@ export class Navigation extends Component {
                     : ''
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
-                onKeyDown={e => this.keyToggleSubNav(e, 'posts')}
+                onKeyDown={(e) => this.keyToggleSubNav(e, 'posts')}
                 tabIndex={0}
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Bài đăng
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+                    Tất cả
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink
@@ -109,8 +109,8 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <NavLink to="/default/">Mặc định</NavLink>
+            <NavLink to="/contact/">Liên hệ</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
@@ -127,5 +127,5 @@ export class Navigation extends Component {
 }
 
 export default ({ subNav }) => (
-  <Location>{route => <Navigation subNav={subNav} {...route} />}</Location>
+  <Location>{(route) => <Navigation subNav={subNav} {...route} />}</Location>
 )

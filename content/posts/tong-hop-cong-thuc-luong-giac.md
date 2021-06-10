@@ -9,8 +9,11 @@ excerpt: Full tổng hợp công thức lượng giác
 categories:
   - category: Toán
 meta:
-  description: test meta description
-  title: test meta title
+  description: Full tổng hợp công thức lượng giác
+  title: Tổng hợp công thức lượng giác
 ---
 
+<i><h3>Dưới đây là trọn bộ công thức lượng giác mà các bạn cần nhớ.<br />Link pdf có ở cuối trang.</h3></i>
+
 <img src="https://i.imgur.com/HqQGPw6.png"/>
+<img src="https://i.imgur.com/FRzykWg.png"/>
