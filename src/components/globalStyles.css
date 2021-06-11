@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 :root {
-  --primary: #00c2bd;
+  --primary: #165f5d;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'Merriweather', serif;
+  --font-system: 'Merriweather', serif;
   --borderRadius: 3px;
 }
 
@@ -23,7 +25,7 @@
 }
 
 ::selection {
-  background: rgba(0, 194, 189, 0.6);
+  background: rgba(17, 122, 243, 0.6);
 }
 
 html {
@@ -32,6 +34,11 @@ html {
   min-height: 100%;
   background: var(--lightGrey);
 }
+
+/* Start https://www.cursors-4u.com */
+* {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur222.cur), auto !important;
+} /* End https://www.cursors-4u.com */
 
 body {
   font-family: var(--font-system);
@@ -47,7 +54,7 @@ body {
 }
 
 a {
-  color: var(--primary);
+  color: #22b647;
 }
 
 strong {
