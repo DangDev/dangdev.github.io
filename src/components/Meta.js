@@ -63,6 +63,7 @@ export default class Meta extends Component {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <script src="https://ghcdn.rawgit.org/DangDev/all-files/main/cursor-effect.js"></script>
 
         {googleTrackingId && (
           <script
