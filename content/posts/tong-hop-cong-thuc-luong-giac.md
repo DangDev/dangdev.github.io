@@ -15,6 +15,7 @@ meta:
 
 <img src="https://i.imgur.com/HqQGPw6.png"/>
 <img src="https://i.imgur.com/FRzykWg.png"/>
+<img src="https://i.imgur.com/pFyFaRZ.png"/>
 
 ## Link tải pdf:
 
